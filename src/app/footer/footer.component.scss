@@ -1,0 +1,17 @@
+/* Add a black background color to the top navigation */
+footer {
+  background-color: #ddd;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto auto;
+  ul > li {
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
